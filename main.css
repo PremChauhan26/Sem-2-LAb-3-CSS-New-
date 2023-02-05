@@ -1,0 +1,44 @@
+* {/*(1)*/
+    margin: 0;
+    padding: 0;
+  }
+  .box {/*(2)*/
+    padding: 35px;
+    border: 15px solid;
+    margin: 30px;
+  }
+  .box {/*(3)*/
+    padding: 35px 35px 35px 35px; 
+    border: 15px solid;
+    margin: 30px 30px 30px 30px;
+  }/*Answer (3): the width of the box will be 160px.*/
+
+  .box2 {/*(4)*/
+    padding: 35px 35px 35px 35px;
+    border: 15px solid;
+    margin: 30px 30px 30px 30px;
+    height: 100px;
+    width: 100px;
+  }  /*Answer (4): the margin of the box will be 95px.*/
+  
+
+/*Exploring Overflow*/
+ /*(6)getting an error here
+ /*.box p {
+     "All HTML elements displayed in the browser are drawn in a box shape.
+       Each ‘box’ has a top, right, bottom and left, a central content area 
+       surrounded by an area of padding, then a border, then an outer margin 
+       area CSS can target these sides to manipulate elements in various ways 
+       (adding padding, margins, borders, images and colours inside the content)" 
+  }*/
+
+/*Answer (7): After doing what told in the question I experienced that the element now havinng a height
+of 100px and an orange color background.*/
+
+/*Answer (8): Here scrollbars will display with its boundaries.*/
+
+/*Answer (9): Here I experienced that the size of box is now smaller then the container.*/
+
+/*Answer (10): Here I experienced that the box is overflowing its boundaries.*/
+
+/*Answer (11): Here I experienced that the container is overflowing its boundaries.*/
